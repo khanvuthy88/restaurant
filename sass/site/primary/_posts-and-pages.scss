@@ -1,0 +1,86 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+#primary{
+	width:100%;
+	#main{
+		display: -webkit-flex;
+	    display: flex;
+	    flex-flow: row;
+	    flex-wrap: wrap;
+	    position: relative;
+	    .welcome-about{
+	    	float: none;
+	    	display:block;
+	    	h2.title{
+	    		color: #555555; 
+			    font-family: "Great Vibes",cursive;
+			    font-size: 36px;
+			    margin-bottom: 7px;
+			    text-transform: capitalize;
+	    	}
+	    	.excerpt{
+	    		margin-top: 20px !important;
+	    		word-wrap: break-word;
+	    	}
+	    	.read-more{
+	    		margin-top: 35px;
+	    		&a{
+					background: #e54c2a none repeat scroll 0 0;
+					color: #ffffff;
+					display: inline-block;
+					font-weight: 600;
+					padding: 12px 38px;
+					text-transform: uppercase;
+	    		}
+	    	}
+	    }
+	    .media{
+	    	overflow: hidden;
+		    display: block;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		    .media-image{
+		    	text-align: center;
+			    margin-right: auto;
+			    margin-left: auto;
+			    img{
+			    	display: block;
+    				margin: auto;
+			    }
+		    }
+	    }	    
+	}
+}
+.popular-dishes{
+	background-color:f1f1f1;
+	.popular-foods-list {
+	    float: left;
+	    width: 100%;
+	}
+}
